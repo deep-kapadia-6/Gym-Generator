@@ -2,9 +2,14 @@
 
 A desktop application that generates randomized gym workout routines following an Upper/Lower split training program. Perfect for adding variety to your strength training and preventing workout plateaus.
 
+![Python](https://img.shields.io/badge/python-3.9+-blue.svg)
+![GUI](https://img.shields.io/badge/GUI-PyQt5-purple.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+
 ## 📋 Overview
 
-Gym-Generator creates customized workout plans with exercises randomly selected from scientifically-backed exercise categories. The app generates three distinct training days:
+Gym-Generator creates customized workout plans by randomly selecting exercises from scientifically backed exercise categories. The app generates three distinct training days:
+
 - **Upper 1**: Chest, back, and shoulder exercises (6 exercises)
 - **Legs 1**: Complete lower body routine (6 exercises)
 - **Upper 2**: Alternative upper body exercises to ensure variety (6 exercises)
@@ -29,13 +34,15 @@ Each workout is designed to target major muscle groups with a mix of compound an
 ### Setup
 
 1. Clone the repository:
-bash
+```bash
 git clone https://github.com/deep-kapadia-6/Gym-Generator.git
 cd Gym-Generator
+```
 
 2. Install required dependencies:
-bash
+```bash
 pip install -r requirements.txt
+```
 
 Dependencies include:
 1. numpy - For random exercise selection
@@ -45,10 +52,11 @@ Dependencies include:
 
 ### Running the Desktop App
 
-bash
+```bash
 python app.py
+```
 
-This launches the PyQt5 GUI window where you can:
+This launches the PyQt5 GUI window, where you can:
 1. Click the "Generate Routine" button
 2. View your randomized 3-day workout split
 3. Generate new routines as needed
@@ -56,8 +64,9 @@ This launches the PyQt5 GUI window where you can:
 ### Using the Jupyter Notebook
 
 Alternatively, explore the exercise randomization logic interactively:
-bash
+```bash
 jupyter notebook gym_shuffle.ipynb
+```
 The notebook contains the same exercise selection algorithm and can be used for testing or customization.
 
 ## 📂 Project Structure
@@ -100,8 +109,9 @@ app.py (lines 41-55) in the week() method
 gym_shuffle.ipynb (cell 2) in the week() function
 
 Example:
-python
+```python
 self.chest1 = ['Barbell bench press', 'Incline bench press', 'Your custom exercise']
+```
 
 ## 🛠️ Technical Details
 
@@ -112,6 +122,9 @@ Window Size: 1200x300 pixels (optimized for routine display)
 
 ## 📝 Example Output
 
+![App Screenshot](static/screenshot.png)
+
+```text
 Upper1: Incline bench press, Weighted pullups, Barbell shoulder press, 
         Cable flys, Face pulls, Lateral raises
 
@@ -120,6 +133,7 @@ Legs1: Standing calf raise, Front squat, Lunges, Deadlift,
 
 Upper2: Barbell bench press, Lat pulldown, Barbell shoulder press, 
         Flat dumbbell press, Bent over row, Single arm leaning in raise
+```
 
 ## 🤝 Contributing
 
