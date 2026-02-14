@@ -122,7 +122,7 @@ Window Size: 1200x300 pixels (optimized for routine display)
 
 ## 📝 Example Output
 
-![App Screenshot](static/screenshot.png)
+![App Screenshot](static/example.png)
 
 ```text
 Upper1: Incline bench press, Weighted pullups, Barbell shoulder press, 
