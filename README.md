@@ -121,7 +121,6 @@ Architecture: Simple object-oriented design with clear separation of UI and logi
 Window Size: 1200x300 pixels (optimized for routine display)
 
 ## 📝 Example Output
-
 ![App Screenshot](static/example.png)
 
 ```text
